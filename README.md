@@ -18,9 +18,9 @@ The data processed by the script was obtained from this URL:
 The script assumes that this file has already been downloaded and all files extracted into a local copy of the directory tree defined in the .zip file; that is, into a directory tree with top directory named "UCI HAR Dataset" and sub-directories "test" and "train". In order to run the script, the R working directory must be set to the parent directory of "UCI HAR Dataset" (i.e., one level up from "UCI HAR Dataset").
 
 The script will write two csv-formatted files to the working directory: 
-* "extracted_data.csv" contains the data initially extracted from the source data files and combined into a tidy table. 
-* "summary_data.csv" contains the mean of each variable in the first file, grouped by subject and activity.
+* "*extracted_data.csv*" contains the data initially extracted from the source data files and combined into a tidy table. 
+* "*summary_data.csv*" contains the mean of each variable in the first file, grouped by subject and activity into another tidy table.
 
-These files use commas for separators, periods for decimal points, and CRLF ('\r\n') for end-of-line indicators. See *CodeBook.md* for descriptions of the data. 
+These files use commas for separators, periods for decimal points, and CRLF ('\r\n') for end-of-line indicators. See *CodeBook.md* for descriptions of the data, column names, etc. 
 
 See the comments in *run_analysis.R* for additional details. 
