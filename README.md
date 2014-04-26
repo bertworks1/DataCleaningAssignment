@@ -13,7 +13,7 @@ The script may executed using the *source("run_analysis.R")* command from the R 
 The script makes use of the R data.table package, so that package must be loaded before running the script.
 
 The data processed by the script was obtained from this URL:  
-   <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
+&nbsp;&nbsp;&nbsp;<https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
 
 The script assumes that this file has already been downloaded and all files extracted into a local copy of the directory tree defined in the .zip file; that is, into a directory tree with top directory named "UCI HAR Dataset" and sub-directories "test" and "train". In order to run the script, the R working directory must be set to the parent directory of "UCI HAR Dataset" (i.e., one level up from "UCI HAR Dataset").
 

@@ -1,12 +1,12 @@
 ### Data Source and Description
 
 The source data for this project was downloaded from this URL:  
-   <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
+&nbsp;&nbsp;&nbsp;<https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
 
 The data was originally compiled as part of a study by Jorge L. Reyes-Ortiz, et al, documented in this paper:  
-   Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz.   
-   Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine.   
-   International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012   
+&nbsp;&nbsp;&nbsp;*Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz.*   
+&nbsp;&nbsp;&nbsp;*Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine.*   
+&nbsp;&nbsp;&nbsp;*International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012.*   
 
 The original data set was comprised of 561 motion data features derived from linear acceleration and angular velocity measurements (along with the raw inertial data). The measurements were taken from 3-axis smartphone acclerometers and rate gyros. The study comprised 30 test subjects, each performing 6 movement activities (lying, sitting, standing, walking, going up and down stairs). Multiple data points were collected for each subject in each activity, resulting in a total of 10299 data points, which were split into training and test sets. The subject ID and activity for each data point were stored in separate files. For additional details, see the files included in the source zip file (especially *README.txt* and *features_info.txt*).
 
@@ -20,7 +20,7 @@ This project required only the features representing the mean and standard devia
 
 The requirements for this project did not specify that the column names should conform to any particular standards. Therefore, the column names were chosen to be similar to the feature names in the original data set, with minor changes to make them more "R-friendly". (In particular, parenthesis were eliminated and dashes were replaced by periods.) Readability in column names was sacrificed somewhat in the interest of conciseness. However, the names all conform to a pattern which can be readily decyphered. The names are derived by combining one option from each bracketed set shown below. Where curly brackets are shown, either the component within the first curly brackets or the component in the second curly brackets is used, but not both in the same name.
 
-   [*t, f*][*Body, Gravity*][*Acc, AccJerk, Gyro, GyroJerk*]{*Mag*}.[*mean, meanFreq, std*]{.[*X, Y, Z*]}
+&nbsp;&nbsp;&nbsp;[*t, f*][*Body, Gravity*][*Acc, AccJerk, Gyro, GyroJerk*]{*Mag*}.[*mean, meanFreq, std*]{.[*X, Y, Z*]}
 
 The first component indicates whether the data is time-based (t) or frequency-based (f). The second component indicates whether the component is attributed to body motion or gravity. The third component indicates the source of the data: accelerometer (Acc), rate gyro (Gyro), or the corresponding time-derivatives (AccJerk and GyroJerk). The fourth component (optional) indicates that the data is a 3D magnitude, as opposed to a single-axis value. The fifth component indicates the type of data: mean, mean frequency, or standard deviation. The sixth component (optional) indicates the axis for single-axis data.
 
