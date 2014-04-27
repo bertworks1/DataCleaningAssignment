@@ -26,6 +26,8 @@ The first component indicates whether the data is time-based (t) or frequency-ba
 
 For example, the name "*tBodyAcc.mean.Z*" would translate to "*the mean of time-based body acceleration along the Z axis*."
 
+Feature data is recorded in units of g's (Acc), g's/sec (AccJerk), radians/sec (Gyro), and radians/sec/sec (GyroJerk).
+
 In addition to the 79 feature columns named as described above, there are two columns representing the subjects and activities, named "subject" and "activity". Subjects are identified only by an integer ID, ranging from 1 to 30. 
 
 One additional note: Although the data in the summary output (see below) represents average values (rather than point-wise values) for each parameter for each subject and activity, the column names used in the summary output are the same as in the extracted output. No additional modifier (such as "mean" or "average") was used, again in the interest of conciseness. 
